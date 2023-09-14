@@ -133,6 +133,8 @@ img {
     background-color: #263238;
     transition: 0.5s;
   }
+
+  
 }
 
 .nav_items {
@@ -471,5 +473,31 @@ img {
     width: 400px;
     top: 30%;
     left: 65%;
+  }
+}
+
+.up-arrow{
+  position: absolute;
+  right: 10%;
+  font-size: 2em;
+}
+
+.up-arrow i{
+  border: 3px solid #fff;
+  border-radius: 25px;
+}
+
+.up-arrow i:hover{
+  color: #0e2431;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .up-arrow {
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    transition: right 0.3s; 
   }
 }
